@@ -3,24 +3,24 @@ package examen2_stephaniemartinez;
 
 
 public abstract class Naves {
-    int serie;
+    String serie;
     String planeta;
     double velocidad;
 
     public Naves() {
     }
 
-    public Naves(int serie, String planeta, double velocidad) {
+    public Naves(String serie, String planeta, double velocidad) {
         this.serie = serie;
         this.planeta = planeta;
         this.velocidad = velocidad;
     }
 
-    public int getSerie() {
+    public String getSerie() {
         return serie;
     }
 
-    public void setSerie(int serie) {
+    public void setSerie(String serie) {
         this.serie = serie;
     }
 

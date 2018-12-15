@@ -13,7 +13,7 @@ public class Nave_Tripulada extends Naves{
         super();
     }
 
-    public Nave_Tripulada(String lugar, double distancia, int serie, String planeta, double velocidad) {
+    public Nave_Tripulada(String lugar, double distancia, String serie, String planeta, double velocidad) {
         super(serie, planeta, velocidad);
         this.lugar = lugar;
         this.distancia = distancia;

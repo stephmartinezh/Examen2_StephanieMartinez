@@ -12,7 +12,7 @@ public class Sonda_Espacial extends Naves {
         super();
     }
 
-    public Sonda_Espacial(String material, double peso, double distancia, int serie, String planeta, double velocidad) {
+    public Sonda_Espacial(String material, double peso, double distancia, String serie, String planeta, double velocidad) {
         super(serie, planeta, velocidad);
         this.material = material;
         this.peso = peso;
