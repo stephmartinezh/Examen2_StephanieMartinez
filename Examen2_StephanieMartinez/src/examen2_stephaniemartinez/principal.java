@@ -527,11 +527,6 @@ public class principal extends javax.swing.JFrame {
                 jButton10MouseClicked(evt);
             }
         });
-        jButton10.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton10ActionPerformed(evt);
-            }
-        });
 
         javax.swing.GroupLayout modificar_planetaLayout = new javax.swing.GroupLayout(modificar_planeta.getContentPane());
         modificar_planeta.getContentPane().setLayout(modificar_planetaLayout);
@@ -984,10 +979,6 @@ public class principal extends javax.swing.JFrame {
             modificar_astronauta.setVisible(true);
         }
     }//GEN-LAST:event_modificarActionPerformed
-
-    private void jButton10ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton10ActionPerformed
-        // TODO add your handling code here:
-    }//GEN-LAST:event_jButton10ActionPerformed
 
     private void jButton10MouseClicked(java.awt.event.MouseEvent evt) {//GEN-FIRST:event_jButton10MouseClicked
         String condicion;
